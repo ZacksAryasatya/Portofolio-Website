@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'motion/react'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
-import profilePhoto from '@/assets/images/Pict.png'
+import profilePhoto from '@/assets/images/Pict.jpg'
 
 export function About() {
   return (
