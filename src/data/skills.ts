@@ -15,11 +15,11 @@ export const SKILLS_DATA: SkillCategory[] = [
     subcategories: [
       {
         name: 'Core',
-        items: ['JavaScript', 'TypeScript', 'Flutter', 'HTML5', 'CSS3']
+        items: ['JavaScript', 'TypeScript', 'HTML5', 'CSS3']
       },
       {
         name: 'Frameworks & Libraries',
-        items: ['React.js', 'Vue.js', 'Tailwind CSS']
+        items: ['React.js', 'Vue.js', 'Tailwind CSS', 'Flutter']
       }
     ]
   },
