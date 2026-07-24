@@ -40,9 +40,8 @@ export function Navbar() {
   }
 
   return (
-    <>
-      <header
-        className={cn(
+    <header
+      className={cn(
           'fixed top-0 left-0 right-0 z-50 transition-all duration-300 w-full',
           isScrolled
             ? 'bg-[var(--bg-color)]/80 backdrop-blur-lg border-b border-[var(--border-color)] py-4 shadow-sm'
@@ -110,8 +109,6 @@ export function Navbar() {
           </button>
         </div>
       </div>
-    </header>
-
       {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
@@ -119,7 +116,7 @@ export function Navbar() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-900 border border-[var(--border-color)] shadow-xl rounded-2xl md:hidden overflow-hidden"
+            className="absolute top-full left-4 right-4 mt-2 bg-white dark:bg-gray-900 border border-[var(--border-color)] shadow-xl rounded-2xl md:hidden overflow-hidden"
           >
             <nav className="flex flex-col p-4">
               {NAV_LINKS.map((link) => {
@@ -144,6 +141,6 @@ export function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
-    </>
+    </header>
   )
 }
