@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router'
 import { Menu, X, Sun, Moon } from 'lucide-react'
 import { motion, AnimatePresence } from 'motion/react'
 import { cn } from '@/lib/utils'
-import { NAV_LINKS, PERSONAL_INFO } from '@/lib/constants'
+import { NAV_LINKS } from '@/lib/constants'
 import { useTheme } from '@/context/ThemeContext'
 import { useScrollSpy } from '@/hooks/useScrollSpy'
 

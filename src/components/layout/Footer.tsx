@@ -1,7 +1,6 @@
 import React from 'react'
 import { ArrowUp } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
-import { PERSONAL_INFO } from '@/lib/constants'
 
 export function Footer() {
   const scrollToTop = () => {

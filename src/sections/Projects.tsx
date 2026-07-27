@@ -1,8 +1,6 @@
 
 import { motion } from 'motion/react'
 import { Link } from 'react-router'
-import { ExternalLink } from 'lucide-react'
-import { FiGithub } from 'react-icons/fi'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { PROJECTS_DATA } from '@/data/projects'
